@@ -1,0 +1,209 @@
+@font-face {
+  font-family: FirstFont;
+  src: url(./iransansweb.woff);
+}
+@font-face {
+  font-family: SecondFont;
+  src: url(./Poppins-Regular.woff);
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: SecondFont;
+}
+.nav-link {
+  color: black !important;
+  font-weight: bolder !important;
+}
+i {
+  cursor: pointer;
+}
+
+.cutdown {
+  margin-top: -350px;
+}
+
+footer {
+  background-color: #fbbb33;
+}
+
+#animate1 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0% {
+    top: 100px;
+  }
+  25% {
+    top: 0px;
+  }
+  50% {
+    top: 200px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+#animate11 {
+  position: relative;
+  animation-name: example11;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example11 {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: 100px;
+  }
+  50% {
+    top: 50px;
+  }
+  75% {
+    top: 0px;
+  }
+  100% {
+    top: 200px;
+  }
+}
+
+#animate2 {
+  position: relative;
+  animation-name: example2;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example2 {
+  0% {
+    top: 0px;
+    left: 150px;
+  }
+  25% {
+    top: 25px;
+    right: 0;
+  }
+  50% {
+    top: 50px;
+    left: 0;
+  }
+  75% {
+    top: 10px;
+    right: 0;
+  }
+  100% {
+    top: 0;
+    right: 150px;
+  }
+}
+
+#animate3 {
+  position: relative;
+  animation-name: example3;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example3 {
+  0% {
+    width: 10%;
+  }
+  25% {
+    width: 15%;
+  }
+  50% {
+    width: 30%;
+  }
+  75% {
+    width: 10%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+#animate4 {
+  position: relative;
+  animation-name: example4;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example4 {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 25px;
+    left: 0;
+  }
+  50% {
+    top: 50px;
+    right: 0;
+  }
+  75% {
+    top: 10px;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 150px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .cutdown {
+    margin-top: -250px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .cutdown {
+    margin-top: -190px !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .cutdown {
+    margin-top: -110px !important;
+  }
+  #movingpics {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .cutdown {
+    margin-top: -50px !important;
+  }
+  #movingpics {
+    margin-top: 50px;
+    width: 40%;
+  }
+}
